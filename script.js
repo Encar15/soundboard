@@ -34,6 +34,12 @@ function initBoard() {
         
         soundLibrary[sound.key].element = btn;
         container.appendChild(btn);
+
+        // Dentro de tu función initBoard:
+    btn.innerHTML = `
+    <span class="key-hint">${sound.key}</span>
+    <span class="sample-name">${sound.name}</span>
+`;
     });
 }
 
