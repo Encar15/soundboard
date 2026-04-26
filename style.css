@@ -1,0 +1,7 @@
+.playing {
+    background: #bc13fe !important;
+    color: white !important;
+    box-shadow: 0 0 40px #bc13fe, 0 0 80px #bc13fe !important;
+    transform: scale(1.05) translateY(-5px);
+    border-color: #fff !important;
+}
