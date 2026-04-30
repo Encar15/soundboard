@@ -1,10 +1,14 @@
 // Configuración de tus sonidos fijos
 const mySounds = [
-    { key: 'A', name: 'KICK', file: 'sounds/kick.mp3' },
-    { key: 'S', name: 'SNARE', file: 'sounds/snare.mp3' },
-    { key: 'D', name: 'TRAP-HAT', file: 'sounds/hihat.mp3' },
-    { key: 'F', name: '808-BASS', file: 'sounds/808.mp3' },
-    { key: 'G', name: 'MI-TAG', file: 'sounds/tag-enzo.mp3' },
+    { key: 'A', name: 'QUE TE ALILE', file: 'sounds/alilatetobi.ogg' },
+    { key: 'S', name: 'LA NOSA', file: 'sounds/cliogrisporoto.ogg' },
+    { key: 'D', name: 'COMETE ESTA', file: 'sounds/cometeestaporoto.ogg' },
+    { key: 'F', name: 'RATAS', file: 'sounds/creativotobi.ogg' },
+    { key: 'G', name: 'FUMADOR SERIAL', file: 'sounds/dejardefumarjason.ogg' },
+    { key: 'H', name: 'DISCULPAS', file: 'sounds/disculpasneke.ogg' },
+    { key: 'I', name: 'GENTE ESTRAÑA', file: 'sounds/genteestraña.ogg' },
+    { key: 'J', name: 'MAS TRANQUILO', file: 'sounds/mastranquiloporoto.ogg' },
+    { key: 'K', name: '???', file: 'sounds/porotowtf.ogg' },
     // Agregá los que quieras siguiendo este formato
 ];
 
