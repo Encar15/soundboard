@@ -126,9 +126,48 @@ body::after {
     width: auto;
     
     /* Estos valores la ubican a la izquierda del centro */
-    top: 30px;            /* Ajustalo para que quede a la misma altura que el título */
+    top: -30px;            /* Ajustalo para que quede a la misma altura que el título */
     left: calc(50% - 125px); /* Esto la mueve al centro y 220px a la izquierda */
     
     filter: drop-shadow(0 0 10px var(--neon));
     pointer-events: none; /* Evita que moleste si querés hacer clic en algo */
+}
+
+/* --- AJUSTES PARA CELULAR (Mobile) --- */
+@media (max-width: 600px) {
+    body {
+        justify-content: flex-start; /* Empuja el contenido hacia arriba */
+        padding-top: 20px;           /* Reduce el espacio superior */
+        overflow-y: auto;            /* Permite scroll si hay muchos botones */
+    }
+
+    .header-container {
+        gap: 10px;                   /* Pega más el poroto al texto */
+        margin-bottom: 20px;         /* Menos espacio antes de los botones */
+    }
+
+    .header-logo {
+        height: 60px;                /* Achica un poco el logo en celu */
+    }
+
+    h1 {
+        font-size: 1.8rem;           /* Título un poco más chico para que no ocupe tanto */
+    }
+
+    .grid-container {
+        padding: 15px;               /* Compacta el tablero */
+        gap: 10px;                   /* Pega más los pads entre sí */
+        grid-template-columns: repeat(3, 1fr); /* Mantiene las 3 columnas */
+    }
+
+    .sound-btn {
+        width: 90px;                 /* Pads un poco más chicos para que entren bien */
+        height: 90px;
+    }
+
+    .logo-flotante {
+        height: 50px;
+        top: 15px;
+        left: calc(50% - 140px); /* Ajustado para el nuevo tamaño de texto */
+    }
 }
