@@ -166,12 +166,12 @@ body::after {
 
     .logo-flotante {
         position: absolute;
-        height: 270px;          /* Un poco más grande para que se vea bien */
-        top: 30px;             /* Bajalo un toque para que no tape el notch del celu */
+        height: 200px;          /* Un poco más grande para que se vea bien */
+        top: 40px;             /* Bajalo un toque para que no tape el notch del celu */
         
         /* Centrado dinámico para celu: */
         left: 50%;
-        transform: translateX(-1%); /* Lo mueve a la izquierda del centro del texto */
+        transform: translateX(-70%); /* Lo mueve a la izquierda del centro del texto */
         
         filter: drop-shadow(0 0 10px var(--neon));
     }
