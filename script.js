@@ -6,7 +6,7 @@ const mySounds = [
     { key: 'F', name: 'RATAS', file: 'sounds/creativotobi.ogg' },
     { key: 'G', name: 'FUMADOR SERIAL', file: 'sounds/dejardefumarjason.ogg' },
     { key: 'H', name: 'DISCULPAS', file: 'sounds/disculpasneke.ogg' },
-    { key: 'I', name: 'GENTE ESTRAÑA', file: 'sounds/genteestraña.ogg' },
+    { key: 'I', name: 'GENTE ESTRAÑA', file: 'sounds/genteestrañapedro.ogg' },
     { key: 'J', name: 'MAS TRANQUILO', file: 'sounds/mastranquiloporoto.ogg' },
     { key: 'K', name: '???', file: 'sounds/porotowtf.ogg' },
     // Agregá los que quieras siguiendo este formato
